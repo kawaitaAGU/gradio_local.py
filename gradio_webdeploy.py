@@ -41,4 +41,4 @@ with gr.Blocks(title="CSV 検索アプリ（Gradio版）") as demo:
 
 # --- 起動 ---
 if __name__ == "__main__":
-    demo.launch(share=True, inbrowser=True)
+    demo.launch(server_name="0.0.0.0", server_port=10000)
